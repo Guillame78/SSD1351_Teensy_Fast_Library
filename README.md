@@ -1,5 +1,4 @@
 # SSD1351_Teensy_Fast_Library
-/*************************************************** 
  This library is issued from adafruit SSD1351 library and  https://github.com/adafruit/Uncanny_Eyes)
  
  All printing function to screen are directed in a uint16_t (RGB565) buffer array and the whole frame is dumped at the end of the loop with a very fast routine. The routine is issued from adafruit uncanny eyes project https://github.com/adafruit/Uncanny_Eyes)
@@ -32,4 +31,3 @@
 
   Written by Limor Fried/Ladyada for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
- ****************************************************/
