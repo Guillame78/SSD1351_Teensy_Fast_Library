@@ -1,7 +1,7 @@
 # SSD1351_Teensy_Fast_Library_Buffer
  This library is issued from adafruit SSD1351 library and  https://github.com/adafruit/Uncanny_Eyes
  
- All printing functions of your sketch are directed in a uint16_t (RGB565) buffer array and the whole frame is dumped at the end of the loop with a very fast routine. The routine is issued from adafruit uncanny eyes project https://github.com/adafruit/Uncanny_Eyes)
+ All printing functions of your sketch are transfered in a uint16_t (RGB565) buffer array and the whole frame is dumped at the end of the loop with a very fast routine. The routine is issued from adafruit uncanny eyes project https://github.com/adafruit/Uncanny_Eyes)
  
  API is the most simple as you can 
   ::update to dump the buffer in one time to screen 
